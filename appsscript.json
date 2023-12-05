@@ -1,0 +1,37 @@
+{
+    "timeZone": "America/New_York",
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8",
+    "dependencies": {
+      "enabledAdvancedServices": [
+        {
+          "userSymbol": "Gmail",
+          "serviceId": "gmail",
+          "version": "v1"
+        }
+      ]
+    },
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.addons.execute",
+      "https://www.googleapis.com/auth/gmail.readonly",
+      "https://www.googleapis.com/auth/script.external_request"
+    ],
+    "urlFetchWhitelist": [
+      "https://api.openai.com/v1/chat/completions/"
+    ],
+    "gmail": {
+      "name": "email pilot",
+      "logoUrl": "https://drive.google.com/uc?id=13job7uoF_Q12F_yOIBN5YGzFFcOWHmYE",
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "buildAddOn"
+        }
+      ],
+      "openLinkUrlPrefixes": [
+        "https://www.example.com"
+      ],
+      "primaryColor": "#4285F4",
+      "secondaryColor": "#00C853"
+    }
+  }
