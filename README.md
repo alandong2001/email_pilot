@@ -11,7 +11,7 @@ Requirements: Google account, openai api key
 
 Copy the code to Googe Apps Script
 --------------
-In the [Apps Script editor](https://script.google.com/), paste the Code.gs content into the Code.gs tab.
+In the [Apps Script editor](https://script.google.com/), paste the Code.gs content into the Code.gs, and change the openai api key to your own.
 
 To add the appsscript.json content, click on the Project Settings icon (a gear icon), and check the box next to Show "appsscript.json" manifest file in editor. Then paste theh appsscript.json content into this file.
 
